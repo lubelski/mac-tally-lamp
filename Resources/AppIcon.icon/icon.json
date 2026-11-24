@@ -1,0 +1,35 @@
+{
+  "fill" : {
+    "linear-gradient" : [
+      "srgb:0.94000,0.25000,0.20000,1.00000",
+      "srgb:0.66000,0.06000,0.05000,1.00000"
+    ]
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "image-name" : "lamp.png",
+          "name" : "lamp"
+        },
+        {
+          "image-name" : "screen.png",
+          "name" : "screen"
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : false,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "squares" : [
+      "macOS"
+    ]
+  }
+}
