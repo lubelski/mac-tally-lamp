@@ -10,7 +10,7 @@ What the app does and why. These were chosen when the app was scaffolded on 2026
 
 **The MCP server starts the app in the background, once per session,** if nothing answers on the socket. If the person quits the app later, that session leaves it quit.
 
-**No MCP SDK.** The server needs `initialize`, `ping`, `tools/list`, `tools/call`, cancellation, and progress, about 400 lines with the tool texts. The recipes allow no dependency but Sparkle unless truly needed.
+**No MCP SDK.** The server needs `initialize`, `ping`, `tools/list`, `tools/call`, cancellation, and progress, about 600 lines with the JSON type and the tool texts. The recipes allow no dependency but Sparkle unless truly needed.
 
 ## The rules
 
